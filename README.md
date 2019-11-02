@@ -15,9 +15,16 @@ Submit [issues](https://github.com/Aju100/2k76/issues/new) and [pull requests](h
 
 
 ## Screenshots
+#### Main Page
 ![alt text](screenshots/1.png)
+
+#### Introduction Section
 ![alt text](screenshots/2.png)
+
+#### Mission Section
 ![alt text](screenshots/3.png)
+
+#### Team Section
 ![alt text](screenshots/4.png)
 
 
