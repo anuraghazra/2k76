@@ -1,0 +1,185 @@
+# Main config file for icon theme.
+theme = "hugo-icon"
+baseURL = "https://aju100.github.io/2k76/"
+languageCode = "en-AU"
+title = "2k76 CSIT"
+logo = "favicon.jpeg"
+
+# Metadata
+[params]
+  author = "Aju Tamang"
+  description = "Cool description"
+
+# Hero section (from here on is for icon theme)
+[params.hero]
+  img = "images/hero_bg.jpg"
+  title = "2k76 CSIT Community"
+  description = "Alone we can do so little; together we can do so much."
+
+# Navigation section
+[params.nav]
+  mission = "About Us"
+  services = "Mission"
+  team = "The Team"
+  contact = "Get In Touch"
+  # Include logo instead if HOME:
+  logo = "favicon.jpeg"
+
+# Mission section
+[params.mission]
+  enable = true
+
+  [params.mission.images]
+    enable = true
+
+    [[params.mission.images.list]]
+      img = "images/img_1.png"
+
+    [[params.mission.images.list]]
+      img = "images/img_2.png"
+    [[params.mission.images.list]]
+      img = "images/img_3.png"
+    [[params.mission.images.list]]
+      img = "images/img_4.png"
+    
+  [[params.mission.item]]
+    weight = 1
+    name = "About"
+    title = "About Us"
+    subtitle = "2k76 CSIT Computer Science Community"
+    description = "<p>2k76 is a non-profitable, non-governmental, non-political, social organization established in 2019 by young energetic students persudaing their career in Computer Science of 2076 batch. The main purpose of establishing 2k76 CSIT is to become more productive and be ready for tech industries in Nepal and globally. We will actively involve for the upcoming days to make it more productive. </p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+    # <ul class='checked'><li> </li><li>User Interface Experts</li><li>Pixel Perfect Design</li></ul><p>
+
+
+# Services section
+[params.services]
+  enable = true
+  video = false
+  vidlink = "https://vimeo.com/channels/staffpicks/93951774"
+  title = "Our Missions"
+  description = "We've learned that people will forget what we said, people will forget what we did, but people will never forget how we made them feel."
+
+  [[params.services.item]]
+    icon = "icon-present"
+    title = "Tech Community Support"
+    description = "Technology is cool, but you've got to use it as opposed to letting it use you.."
+
+  [[params.services.item]]
+    icon = "icon-eye"
+    title = "Guide tech Students"
+    description = "The fun thing about getting older is finding younger people to mentor.."
+
+  [[params.services.item]]
+    icon = "icon-paper-plane"
+    title = "Grow together"
+    description = "Coming together is a beginning; keeping together is progress; working together is success."
+
+# Work section
+[params.work]
+  enable = false
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_1.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_2.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_3.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_2.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_3.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_2.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_3.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_4.jpg"
+
+# Team section
+[params.team]
+  enable = true
+  title = "Meet The Team"
+  description = "Unity is strength... when there is teamwork and collaboration, wonderful things can be achieved."
+
+  [[params.team.item]]
+    name = "Aju Tamang"
+    position = "Developer/Co-founder"
+    description = "Nerd, Passionate Developer, Speaker and philosopher."
+    img = "images/person1.jpg"
+    email = "ajutamang10@outlook.com"
+    github = "https://github.com/Aju100"
+    twitter = "#"
+    facebook = "https://m.facebook.com/aju.tamang.9066"
+    linkedin = "https://www.linkedin.com/in/aju-tamang-68bb17165/"
+  
+
+  [[params.team.item]]
+    name = "Prashant Bhusan"
+    position = "Founder"
+    description = "Influencer,loves Graphic Design and digital marketing."
+    img = "images/person2.jpg"
+    email = "#"
+    telephone = "#"
+    facebook = "#"
+    twitter = "#"
+    github = "#"
+
+  [[params.team.item]]
+    name = "Mahesh Chandra Regmi"
+    position = "CTO/ Educator"
+    description = "Geek, Machine Learning practitioner and Developer "
+    img = "images/person3.jpg"
+    email = "#"
+    telephone = "#"
+    facebook = "#"
+    twitter = "#"
+    github = "#"
+    instagram = "#"
+    linkedin ="#"
+    
+
+
+# Contact section
+[params.contact]
+  enable = true
+  title = "Get In Touch"
+  message = "Let's be connected and start Something great with you. Ask how we can help you. Please Fill up the form for that procedure."
+  name_placeholder = "Your name"
+  email_placeholder = "Your email"
+  email_disclaimer = "We'll never share your email with anyone else."
+  message_placeholder = "Please enter a message."
+  button_text = "Submit"
+
+# Footer section
+# Note here that the copyright and attribution statement must remain as part of the license agreement. If you wish to remove this, please contact freehtml5 and pay for a professional license.
+[params.footer]
+  enable = true
+  note = "<p><small>&copy; 2019 2k76-CSIT. All Rights Reserved. <br> Developed by <a href='https://github.com/Aju100' target='_blank'>Aju Tamang</a>"
+  github = "https://github.com/Aju100"
+  twitter = "#"
+  facebook = "https://m.facebook.com/aju.tamang.9066"
+  linkedin = "https://www.linkedin.com/in/aju-tamang-68bb17165/"
+  
