@@ -15,8 +15,10 @@ Submit [issues](https://github.com/Aju100/2k76/issues/new) and [pull requests](h
 
 
 ## Screenshots
-#### Main Page in Desktop 
+#### Desktop View
 ![alt text](screenshots/1.png)
+
+#### Moblie View
 ![alt text](screenshots/mobile.png)
 
 ## Contributors ✨
