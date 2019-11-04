@@ -33,14 +33,13 @@ logo = "favicon.jpeg"
     enable = true
 
     [[params.mission.images.list]]
-      img = "images/img_1.png"
-
+      img = "images/logo1.jpg"
     [[params.mission.images.list]]
-      img = "images/img_2.png"
+      img = "images/logo2.jpg"
     [[params.mission.images.list]]
-      img = "images/img_3.png"
+      img = "images/logo3.jpg"
     [[params.mission.images.list]]
-      img = "images/img_4.png"
+      img = "images/logo4.jpg"
     
   [[params.mission.item]]
     weight = 1
